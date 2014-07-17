@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Shell Script File</key>
+			<string>script.pl</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/perl</string>
+			<key>Title</key>
+			<string>unssh</string>
+			<key>Regular Expression</key>
+			<string>key in (.*):([0-9]+)</string>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>com.twoshortplanks.popclip.unssh</string>
+	<key>Extension Name</key>
+	<string>unssh</string>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
